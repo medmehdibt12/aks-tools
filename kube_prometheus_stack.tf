@@ -14,3 +14,4 @@ resource "helm_release" "kube_prometheus_stack" {
 
   values     = [file("${path.module}/kubernetes/helm/kube-prometheus-stack/values.yaml")]
   
+}
